@@ -1,17 +1,17 @@
 [
   {
-    "name": "Sal",
+    "username": "BetterCallSal",
     "email": "sal@hotmail.com",
     "password": "password12345"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
+    "username": "QuintonLernantino",
+    "email": "gratuitous@violence.com",
     "password": "password12345"
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
+    "username": "SuzeeSqueeeeCats",
+    "email": "suzee@catz.com",
     "password": "password12345"
   }
 ]
