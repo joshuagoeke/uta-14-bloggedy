@@ -3,14 +3,14 @@ const newFormHandler = async (event) => {
 
 //querySelectors must reference const with exact name in database Model
 
-  const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
-  const description = document.querySelector('#project-desc').value.trim();
+  const title = document.querySelector('#project-name').value.trim();
+  // const needed_funding = document.querySelector('#project-funding').value.trim();
+  const body = document.querySelector('#project-desc').value.trim();
 
-  if (name && needed_funding && description) {
-    const response = await fetch(`/api/projects`, {
+  if (title && body) {
+    const response = await fetch(`/api/posts`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),//shortcuts must match Model and const above
+      body: JSON.stringify({ title,  body }),//shortcuts must match Model and const above
       headers: {
         'Content-Type': 'application/json',
       },
@@ -28,7 +28,7 @@ const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/projects/${id}`, {
+    const response = await fetch(`/api/post/${id}`, {
       method: 'DELETE',
     });
 
@@ -44,6 +44,6 @@ document
   .querySelector('.new-project-form')
   .addEventListener('submit', newFormHandler);
 
-document
-  .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler);
+// document
+//   .querySelector('.project-list')
+//   .addEventListener('click', delButtonHandler);
