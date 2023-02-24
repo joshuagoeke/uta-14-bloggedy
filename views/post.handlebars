@@ -1,5 +1,9 @@
 <div class="text-center">
-  <h2>{{post.title}}</h2>
+  <h2>{{post.title}}  
+    {{!-- {{#if user.username = post.user.username}}
+        <button class="btn btn-sm btn-warning" id= "edit" data-id="{{post.id}}">EDIT</button>
+      {{/if}} --}}
+      </h2>
   <p>{{{get_emoji}}}</p>
   <p>{{post.body}}</p>
   <p>Created by {{post.user.username}} on {{format_date post.createdAt}}</p>
@@ -7,6 +11,10 @@
 <div>{{comment}}</div>
 <p>Created by {{user.username}} on {{format_date createdAt}}</p>
 {{/each}}
+  {{#unless logged_in}}
+  <p><a href="/login">Log in</a> to comment!</p>
+  {{/unless}}
+  {{#if logged_in}}
   <p>
     <div class="form-group">
         <input id="post_id" type="hidden" name="post-id" value="{{post.id}}" />
@@ -16,6 +24,8 @@
     <button class="btn btn-primary" id="make-comment">Post Comment!</button>
   </p>
 </div>
-{{#if logged_in}}
+
   <script src="/js/comment.js"></script>
   {{/if}}
+
+  
