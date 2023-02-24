@@ -19,4 +19,10 @@ module.exports = {
       return `<span for="img" aria-label="gear">⚙️</span>`;
     }
   },
+  userIsCorrect: () => {
+  if (username = post.user.username) {
+    return true;
+  } else {
+    return false;
+  }},
 };
