@@ -1,7 +1,8 @@
 [
   {
     "title": "Music Near Me",
-    "body": "Boy I really wish I had some place where I could hear live music near my house. Like, I'm really into this weirdcore yodeling techno metal and I wish I could meet up with people who are also into my same kind of jams. You just can't find anyone who appreciates the classics anymore, am I right?"
+    "body": "Boy I really wish I had some place where I could hear live music near my house. Like, I'm really into this weirdcore yodeling techno metal and I wish I could meet up with people who are also into my same kind of jams. You just can't find anyone who appreciates the classics anymore, am I right?",
+    "user_id": 2
   },
   {
     "title": "Recipe for Rice Cooker Rice",
@@ -9,6 +10,13 @@
   },
   {
     "title": "Music Near Me",
-    "body": "Boy I really wish I had some place where I could hear live music near my house. Like, I'm really into this weirdcore yodeling techno metal and I wish I could meet up with people who are also into my same kind of jams. You just can't find anyone who appreciates the classics anymore, am I right?"
+    "body": "Boy I really wish I had some place where I could hear live music near my house. Like, I'm really into this weirdcore yodeling techno metal and I wish I could meet up with people who are also into my same kind of jams. You just can't find anyone who appreciates the classics anymore, am I right?",
+    "user_id": 1
+  },
+
+  {
+    "title": "I love cats.",
+    "body": "I love every kind of cat. I just want to hug all of them. Sorry, I''m crying right now because I just want to hug them all. But you can''t hug every cat. But anyway, I am a cat lover, and I love to run... sorry I''m thinking about cats again! I just really love cats!",
+    "user_id": 3
   }
 ]
