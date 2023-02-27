@@ -1,21 +1,17 @@
-# UTA Bootcamp Challenge NUMBER
+# UTA Bootcamp Challenge 14
 
-In this homework assignment from the University of Texas-Austin Bootcamp we were asked to ...
+In this homework assignment from the University of Texas-Austin Bootcamp we were asked to create a blog with comments, a login, and posts.
 
-# <Your-Project-Title>
+# Bloggedy (the blog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This was one of my first full-stack projects and I learned a lot about the way MySQL works through modularized javascript files to display data to the front end. It was also one of my first uses of a Model-View-Controller. I utilized [handlebars.js](https://handlebarsjs.com/) to render templates with the blog data stored in the [MySQL](https://www.mysql.com/) database. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+For my purposes, I found it expendient to re-factor code provided by the University of Texas-Austin Bootcamp from an in-class fundraising app mini-project rather than starting from scratch. By re-factoring the code I was able to more quickly get to a minimum-viable-product. At a later date, I plan to come back and add more comments, and clean up the code to make it more readable.
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,51 +20,35 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Navigate to https://bloggedy.herokuapp.com/ and click around!
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Feel free to create a user profile, write a blog and post comments!
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+If you are not logged in, you can still see comments and blogs, but you will be unable to post or comment.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+In this learning exercise I had some very helpful tips from some helpful sources:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+- Tutor Meg Meyers
+- Tutor Ntando Mendu
+- Teaching Assistant Diem Ly
 
-If you followed tutorials, include links to those here as well.
+You all got me unstuck at critical times. Thanks a lot!
 
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 ## Attributions:
-This README.md is patterned off of an example at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+- Credit to the starter code given from the University of Texas-Austin Bootcamp.
+
+- [Bootstrap](https://getbootstrap.com/) is utilized for much of the styling and basic HTML.
+
+- [handlebars.js](https://handlebarsjs.com/) [MySQL](https://www.mysql.com/)
+
+- This README.md is patterned off of an example at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide

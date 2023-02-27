@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   userIsCorrect: () => {
-  if (username = post.user.username) {
+  if (username = this.post.user.username) {
     return true;
   } else {
     return false;
