@@ -28,6 +28,8 @@ Feel free to create a user profile, write a blog and post comments!
 
 If you are not logged in, you can still see comments and blogs, but you will be unable to post or comment.
 
+![Picture of Bloggedy Blogs](./assets/images/BloggedyScreenshot.jpg?raw=true)
+
 ## Credits
 
 In this learning exercise I had some very helpful tips from some helpful sources:
