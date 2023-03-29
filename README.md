@@ -11,7 +11,7 @@ This was one of my first full-stack projects and I learned a lot about the way M
 
 For my purposes, I found it expendient to re-factor code provided by the University of Texas-Austin Bootcamp from an in-class fundraising app mini-project rather than starting from scratch. By re-factoring the code I was able to more quickly get to a minimum-viable-product. At a later date, I plan to come back and add more comments, and clean up the code to make it more readable.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
